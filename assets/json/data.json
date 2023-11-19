@@ -1,0 +1,37 @@
+[
+  {
+    "name": "BEST SELLER / 5 DNI / MANGANARI / GRECJA / HOTEL CALILO",
+    "image": "assets/hotel/calilo/idmain.jpg",
+    "date": "18.05.24 - 23.05.24",
+    "price": 1700,
+    "about": "Hotel Calilo, usytuowany w miejscowości Manganari, oferuje sezonowy odkryty basen, bezpłatny prywatny parking, centrum fitness oraz ogród. Do dyspozycji Gości przygotowano takie udogodnienia, jak restauracja, obsługa pokoju, całodobowa recepcja oraz bezpłatne WiFi we wszystkich pomieszczeniach. 5-gwiazdkowy Hotel Calilo oferuje wannę z hydromasażem i taras. W obiekcie Goście mogą grać w bilard i rzutki."
+  },
+  {
+    "name": "BEST SELLER / 7 DNI / BODRUM / TURCJA / MANDARIN ORIENTAL",
+    "image": "assets/hotel/mandarin/idmain.jpg",
+    "date": "15.06.24 - 22.06.24",
+    "price": 2100,
+    "about": "Hotel Mandarin Oriental, Bodrum jest usytuowany w miejscowości Golturkbuku i oferuje prywatną plażę oraz kryty i odkryty basen. Za dodatkową opłatą Goście mogą korzystać z WiFi.\nDo dyspozycji Gości są klimatyzowane pokoje i apartamenty z balkonem, częścią wypoczynkową oraz jadalnią z czajnikiem elektrycznym i ekspresem do kawy. Obiekt dysponuje centrum spa i odnowy biologicznej, które jest doskonałym miejscem na relaks."
+  },
+  {
+    "name": "BEST SELLER / 8 DNI / PORTO / MONTENEGRO / ONE & ONLY HOTEL",
+    "image": "assets/hotel/one/idmain.jpg",
+    "date": "20.07.24 - 28.07.24",
+    "price": 1800,
+    "about": "Hotel One&Only Portonovi, usytuowany w miejscowości Herceg Novi, oferuje bezpłatne rowery, bezpłatny prywatny parking, ogród oraz wspólny salon. Hotel oddaje do dyspozycji Gości klimatyzowane pokoje, w których zapewniono biurko, ekspres do kawy, minibar, sejf, telewizor z płaskim ekranem, taras oraz prywatną łazienkę z prysznicem. Okolica jest popularna wśród miłośników trekkingu i jazdy na rowerze. W obiekcie działa wypożyczalnia samochodów."
+  },
+  {
+    "name": "BEST SELLER / 6 DNI / VATHI / GRECJA / DAIOS RESORT",
+    "image": "assets/hotel/daios/idmain.jpg",
+    "date": "10.04.24 - 16.04.24",
+    "price": 2300,
+    "about": "Hotel Daios Cove Luxury Resort & Villas usytuowany jest na zboczu wzgórza w północno-wschodniej części Krety. Zapewnia on widok na prywatna zatokę. Elegancko urządzone pokoje, apartamenty i poszczególne wille mieszczą przestronny salon oraz wyłożoną marmurem łazienkę z oddzielną wanną i prysznicem ze strumieniem deszczowym. Zaplecze rekreacyjne w ośrodku obejmuje 2 korty tenisowe, 2 odkryte baseny oraz sprzęt do sportów wodnych."
+  },
+  {
+    "name": "BEST SELLER / 7 DNI / RIBERA / WŁOCHY / VERDURA RESORT",
+    "image": "assets/hotel/verdura/idmain.jpg",
+    "date": "05.06.24 - 12.06.24",
+    "price": 2500,
+    "about": "Hotel Verdura położony jest na posesji o powierzchni 230 hektarów, nieopodal fragmentu sycylijskiego wybrzeża o długości 2 km. Na miejscu podziwiać można gaje oliwne i wiejskie krajobrazy. Obiekt oferuje prywatną plażę, 3 pola golfowe i niezakłócony widok na morze.\nDo dyspozycji Gości ośrodka Verdura są przestronne pokoje z balkonem, dużą łazienką, łóżkiem typu king-size oraz telewizorem z dostępem do kanałów satelitarnych."
+  }
+]
