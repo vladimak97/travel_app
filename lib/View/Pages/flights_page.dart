@@ -3,6 +3,7 @@
 import 'dart:convert';
 
 import 'package:flutter/material.dart';
+import 'package:flutter_paypal_checkout/flutter_paypal_checkout.dart';
 import 'package:http/http.dart' as http;
 
 class FlightsPage extends StatefulWidget {
@@ -326,6 +327,56 @@ class FlightCard extends StatelessWidget {
               child: Text(
                 '${price['currency']} ${price['total']}',
                 style: const TextStyle(fontSize: 18, color: Colors.white),
+              ),
+            ),
+            Padding(
+              padding: const EdgeInsets.all(8.0),
+              child: ElevatedButton(
+                onPressed: () async {
+                  Navigator.of(context).push(MaterialPageRoute(
+                    builder: (BuildContext context) => PaypalCheckout(
+                      sandboxMode: true,
+                      clientId:
+                          'AaHJNW1yTv4uGa5Japgql1PuobFtNZf5UVTZRxeUg9_3_ix_nmQNahUflWYn0G_f6F3Rb6GMH4-VDXoA',
+                      secretKey:
+                          'EFO25LeMBErx-nJVW9JPRTMoHTYeWwFiigSVaqHqt02UWYP3jhmSHkDQ1hjePt7XI9s3UkO1AOxJegCe',
+                      returnURL: "https://www.google.com",
+                      cancelURL: "https://www.bing.com",
+                      transactions: [
+                        {
+                          "amount": {
+                            "total": '${price['total']}',
+                            "currency": '${price['currency']}',
+                          },
+                          "description": "Flight",
+                        }
+                      ],
+                      note: "Contact us for any questions on your order.",
+                      onSuccess: (Map params) async {
+                        print("onSuccess: $params");
+                      },
+                      onError: (error) {
+                        print("onError: $error");
+                        Navigator.pop(context);
+                      },
+                      onCancel: () {
+                        print('cancelled:');
+                      },
+                    ),
+                  ));
+                },
+                style: ButtonStyle(
+                  backgroundColor: MaterialStateProperty.all(
+                    const Color(0xfffd690d),
+                  ),
+                ),
+                child: const Text(
+                  'Kup',
+                  style: TextStyle(
+                      fontSize: 16,
+                      fontWeight: FontWeight.bold,
+                      color: Colors.white),
+                ),
               ),
             ),
           ],
